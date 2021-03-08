@@ -1,0 +1,20 @@
+{
+    "db-connections":{
+        "mongodb":{
+            "host": "cluster0.blaos.mongodb.net",
+            "user": "acad_rest_api_user",
+            "password": "LH5yTShEel3V7T6F",
+            "dbname": "AcademicDB2"
+
+        }
+    },
+    "secretKeys":{
+        "cryptojs":"Fm8nFH@wMdS",
+        "jwt": "ABC@2021*"
+    },
+    "roles": {
+        "student": 1,
+        "teacher": 2
+    },
+    "server-port": 3000
+}
